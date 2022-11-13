@@ -17,9 +17,9 @@ import java.nio.file.Paths;
 @RestController
 public class Portfolio {
 
-    @GetMapping(path = "/download")
+    @GetMapping
     public ResponseEntity<Resource> download() throws IOException {
-        //File file = new File("./src/main/java/com/example/portfolioservice/portfoliositeservice/Portfolio/resume-navjot-singh.pdf");
+
         ClassPathResource res = new ClassPathResource("src/main/resources/resume-navjot-singh.pdf");
         File file = new File(res.getPath());
 
