@@ -1,2 +1,2 @@
 # portfolio-resume-service
-Lve Preview : https://resume-navjot-singh.herokuapp.com
+Live Preview : https://resume-navjot-singh.herokuapp.com
